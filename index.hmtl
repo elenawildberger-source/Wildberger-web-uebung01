@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Startseite</title>
+    <link rel="stylesheet" href="script.css">
 </head>
 <body style="background-color: #E6E6FA;"> 
     <h1>Elena Wildberger – 6R</h1>
@@ -26,25 +27,15 @@
     <h2>Freies Bild</h2>
     <figure>
         <img src="img/bild1.jpg" 
-             alt="Blick über die Dächer von Linz mit Donau und grünen Hügeln" 
+             alt="Rakete" 
              title="Freies Bild" 
              width="400" 
              height="auto">
         <figcaption>
-            Bild: <a href="https://commons.wikimedia.org/wiki/File:Linz_-_Blick_vom_Freinberg_auf_die_Altstadt_(2).JPG" target="_blank" rel="noopener noreferrer">Blick vom Freinberg auf die Altstadt von Linz</a> 
-            von <a href="https://commons.wikimedia.org/wiki/User:Isiwal" target="_blank" rel="noopener noreferrer">Isiwal</a>, 
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
+            Bild: <a href="https://commons.wikimedia.org/wiki/File:GRACE-FO_Launch_(NHQ201805220019).jpg" target="_blank" rel="noopener noreferrer">GRACE-FO Launch (NHQ201805220019)</a> 
+            von NASA/Bill Ingalls, 
+            <a href="https://creativecommons.org/licenses/by-nc/2.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 2.0</a>
         </figcaption>
     </figure>
-
-    <script>
-        const hobbys = ["Lesen", "Schwimmen", "Fotografieren", "Elena Wildberger"];
-        const liste = document.getElementById("liste-hobbys");
-        hobbys.forEach(h => {
-            let li = document.createElement("li");
-            li.textContent = h;
-            liste.appendChild(li);
-        });
-    </script>
 </body>
 </html>
